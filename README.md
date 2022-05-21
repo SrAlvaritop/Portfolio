@@ -1,2 +1,2 @@
 # Portfolio
-Angular base
+Angular base project
