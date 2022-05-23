@@ -20,7 +20,7 @@
 h1.mainTitle {
     font-family: "OdibeeSans";
     font-weight: 100;
-    font-size: 45px;
+    font-size: 25px;
 }
 
 .mainTitle{
@@ -31,3 +31,13 @@ p {
     font-family: "Pixel";
 }
 
+.toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+img.computerImg {
+    filter: grayscale(1);
+}
