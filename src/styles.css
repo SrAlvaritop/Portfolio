@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Pixel";
+    src: local("Pixel"), url(./assets/fonts/PixelOperator.ttf) format("truetype");
+}
+@font-face {
+    font-family: "SilentReaction";
+    src: local("SilentReaction"), url(./assets/fonts/SilentReaction.ttf) format("truetype");
+}
+@font-face {
+    font-family: "Start2P";
+    src: local("Start2P"), url(./assets/fonts/PressStart2P-Regular.ttf) format("truetype");
+}
+@font-face {
+    font-family: "OdibeeSans";
+    src: local("OdibeeSans"), url(./assets/fonts/OdibeeSans-Regular.ttf) format("truetype");
+}
+
+h1.mainTitle {
+    font-family: "OdibeeSans";
+    font-weight: 100;
+    font-size: 45px;
+}
+
+.mainTitle{
+    padding: 5px;
+}
+
+p {
+    font-family: "Pixel";
+}
+

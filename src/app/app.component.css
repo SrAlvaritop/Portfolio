@@ -1,3 +1,16 @@
-.mainTitle{
-    padding: 5px;
+
+.toolbar{
+    padding-left: 30px; 
+    padding-right: 25px
+}
+
+pre {
+    font-family: 'Pixel'!important;
+    font-weight: 100;
+    color: lime!important;
+}
+
+.myPhoto {
+    border-radius: 50%;
+    width: 160px;
 }
