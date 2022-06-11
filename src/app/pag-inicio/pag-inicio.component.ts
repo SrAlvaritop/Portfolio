@@ -30,7 +30,7 @@ export class PagInicioComponent implements OnInit {
 
   ngOnInit(): void{
 
-    console.warn("WARNING: ¿Qué haces abriendo el inspeccionar?");
+    console.log("¿Qué buscas en el inspeccionar?");
     const target = document.querySelector('.tw');
 
     const options = {
