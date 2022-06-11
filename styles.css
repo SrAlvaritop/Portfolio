@@ -1,0 +1,56 @@
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[5].rules[0].oneOf[0].use[2]!./src/styles.css ***!
+  \********************************************************************************************************************************************************************************************************/
+/* You can add global styles to this file, and also import other style files */
+
+@font-face {
+    font-family: "Pixel";
+    src: local("Pixel"), url('PixelOperator.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "SilentReaction";
+    src: local("SilentReaction"), url('SilentReaction.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Start2P";
+    src: local("Start2P"), url('PressStart2P-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "OdibeeSans";
+    src: local("OdibeeSans"), url('OdibeeSans-Regular.ttf') format("truetype");
+}
+
+h1.mainTitle {
+    font-family: "OdibeeSans";
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.mainTitle{
+    padding: 5px;
+}
+
+p {
+    font-family: "Pixel";
+}
+
+.toolbar {
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+
+img.computerImg {
+    filter: grayscale(1);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+/*# sourceMappingURL=styles.css.map*/
