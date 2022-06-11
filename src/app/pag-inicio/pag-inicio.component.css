@@ -1,0 +1,75 @@
+pre {
+    font-weight: 100;
+    color: lime!important;
+}
+
+.myPhoto {
+    border-radius: 50%;
+    width: 180px;
+}
+
+.terminal {
+    position:relative;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 6px;
+    padding-top: 45px;
+    margin-top: 8px;
+    overflow: hidden;
+    background-color: rgb(15, 15, 16);
+  }
+
+  .terminal::before {
+    content: "\2022 \2022 \2022 Terminal";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    background: rgb(58, 58, 58);
+    color: #c2c3c4;
+    width: 100%;
+    font-size: 0.95rem;
+    font-family: "Pixel";
+    line-height: 0;
+    padding: 14px 0;
+    text-indent: 4px;
+  }
+
+  .terminal pre {
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 14px;
+    color: white;
+    padding: 0 1rem 1rem;
+    margin: 0;
+  }
+
+
+  svg#clouds {
+    position: fixed;
+    bottom: +480px;
+    left: -230px;
+    z-index: -10;
+    width: auto;
+  }
+
+  /* Responsive Styles */
+  @media screen and (max-width: 767px) {
+    .terminal {
+      width: 100%;
+    }
+  }
+
+  .titleName{
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 24px;
+  }
+
+  .subTitleName{
+    font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 18px;
+    color:rgb(54, 67, 82);
+  }
+  
+  .mainContentInicio{
+    margin-bottom:20px;
+  }
