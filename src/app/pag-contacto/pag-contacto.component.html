@@ -23,21 +23,15 @@
               </div>
               <div class="screen-body-item">
                 <div class="app-form">
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="Nombre">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="E-MAIL">
-                  </div>
-                  <div class="app-form-group">
-                    <input class="app-form-control" placeholder="Asunto">
-                  </div>
-                  <div class="app-form-group message">
-                    <input type="textarea" class="app-form-control" placeholder="Mensaje">
-                  </div>
-                  <div class="app-form-group buttons">
-                    <button class="app-form-button">ENVIAR</button>
-                  </div>
+                  <form >
+
+                    <input id="name" class="app-form-control" type="text" formControlName="name" placeholder="NOMBRE">
+                    <input id="email" class="app-form-control" type="text" formControlName="email" placeholder="E-MAIL">
+                    <input id="asunto" class="app-form-control" type="text" formControlName="asunto" placeholder="Asunto">
+                    <textarea id="mensaje" class="app-form-control" formControlName="mensaje" placeholder="MENSAJE"></textarea>
+                    
+                    <input type="submit" value="Enviar">
+                  </form>
                 </div>
               </div>
             </div>
